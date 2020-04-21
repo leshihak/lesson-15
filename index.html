@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <img src="./img/asus-logo-white.png" alt="">
+    <div class="device">
+      <div class="left-block">
+        <div class="left-block_list">
+          <div class="list--task">Task List</div>
+          <div id="myDiv"></div>
+        </div>
+      </div>
+
+      <div class="verical-line"></div>
+
+      <div class="error">
+        <button class="error-btn">X</button>
+        <div class="warning">Warning
+          <div class="error-txt">You must write something!</div>
+        </div>
+      </div>
+
+      <div class="error-last">
+        <button class="error-btn-last">X</button>
+        <div class="warning">Warning
+          <div class="error-txt">You can't remove the last task!</div>
+        </div>
+      </div>
+
+      <div class="right-block">
+        <div class="right-block_new_task">
+          <div class="new--task">Add new task</div>
+          <form action="">
+            <input type="text" name="" id="add--new--task"> 
+          </form>
+          <div class="line"></div>
+          <form action="" id="button" name="button">
+            <input type="button" onclick="newElement()" value="Add" id="btn" name="btn">
+          </form>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
